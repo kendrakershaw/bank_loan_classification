@@ -11,3 +11,4 @@ The objective of this project is to develop a binary classification model to pre
 ## Figures
 
 
+![Screenshot(495)](https://github.com/kendrakershaw/bank_loan_classification/blob/main/decision_tree.png)
