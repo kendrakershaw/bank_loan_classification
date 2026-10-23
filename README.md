@@ -8,7 +8,21 @@ The objective of this project is to develop a binary classification model to pre
 ## Data Set Used
 [Universal Bank Customer Data](https://github.com/kendrakershaw/bank_loan_classification/blob/main/UniversalBank.csv)
 
-## Figures
+## Model Performance
 
+### Decision Tree
 
+Each leaf shows the proportion of training customers that landed there and the predicted class. Two leaves account for most of the predicted acceptors: 
+- Customers with Income at or above roughly $115K and Education at Graduate or Advanced level: high acceptance probability.
+- Customers with Income at or above roughly $115K, an Undergraduate degree, and a Family size of three or more: high acceptance probability.
+
+A smaller third leaf flags mid-income customers (Income roughly $93–107K) with a graduate or advanced degree and elevated monthly credit card spend (CCAvg at or above roughly $3K/month).
 ![Screenshot(495)](https://github.com/kendrakershaw/bank_loan_classification/blob/main/decision_tree.png)
+
+### Artificial Neural Network
+
+
+
+![Screenshot(495)](https://github.com/kendrakershaw/bank_loan_classification/blob/main/ann.png)
+
+![Screenshot(495)](https://github.com/kendrakershaw/bank_loan_classification/blob/main/model_results.png)
