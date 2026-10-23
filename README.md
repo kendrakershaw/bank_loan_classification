@@ -21,8 +21,16 @@ A smaller third leaf flags mid-income customers (Income roughly $93–107K) with
 
 ### Artificial Neural Network
 
-
+The neural network model uses 13 input variables to predict whether a customer will accept a personal loan. The model includes five hidden nodes that process the inputs before producing a final prediction. The blue and red lines represent positive and negative weights, and thicker lines show stronger connections between nodes.
 
 ![Screenshot(495)](https://github.com/kendrakershaw/bank_loan_classification/blob/main/ann.png)
 
+### Model Accuracy
+
+We compared three classification models using accuracy, precision, recall, and F1-score. The decision tree performed best overall, with 98.47% accuracy, 92.91% precision, and 90.97% recall. Although the neural network had the highest recall at 93.75%, the decision tree provided the best balance between identifying potential loan customers and minimizing incorrect predictions.
+
 ![Screenshot(495)](https://github.com/kendrakershaw/bank_loan_classification/blob/main/model_results.png)
+
+## Conclusion
+
+We recommend that Universal Bank use the decision tree model to identify customers most likely to accept a personal loan. The bank should focus its marketing efforts on high-income customers, particularly those with advanced degrees or larger families. We also recommend adjusting the model's classification threshold based on marketing costs and retraining it after each campaign to maintain its performance.
