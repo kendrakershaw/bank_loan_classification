@@ -29,7 +29,7 @@ The neural network model uses 13 input variables to predict whether a customer w
 
 We compared three classification models using accuracy, precision, recall, and F1-score. The decision tree performed best overall, with 98.47% accuracy, 92.91% precision, and 90.97% recall. Although the neural network had the highest recall at 93.75%, the decision tree provided the best balance between identifying potential loan customers and minimizing incorrect predictions.
 
-![Screenshot(495)](https://github.com/kendrakershaw/bank_loan_classification/blob/main/model_results.png)
+![Screenshot(495)](https://github.com/kendrakershaw/bank_loan_classification/blob/main/model_results_1.png)
 
 ## Conclusion
 
